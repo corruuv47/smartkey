@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo de la empresa" />
+        <img id="logo" src="IMG/SmartKeyLogo.jpg" alt="Logo de la empresa" />
         <div class="Tituloyeslogan">
             <h1 id="titulo">SmartKey</h1>
             <p id="eslogan">Nunca más pierdas lo importante</p>
@@ -22,6 +22,12 @@
         <a class="anav" href="compra.html">Adquirir</a>
         <a class="anav" href="#contacto">Contacto</a>
     </nav>
+
+    <div id="introduccion">
+        <h1 id="titulopagina">¡BIENVENID@ A NUESTRA PÁGINA!</h1>
+        <h2 id="subtitulopagina">El mejor llavero inteligente del mundo.</h2>
+    </div>
+
 
     <section id="historia" class="card">
         <h2>¿Quienes somos?</h2>
@@ -42,10 +48,31 @@
         </p>
     </section>
 
+    <div class="carousel">
+  <div class="carousel-container">
+    <div class="slide active">
+      <img src="IMG/Llavero.png" alt="Imagen 1">
+      <div class="caption">SmartKey; Nunca más...</div>
+    </div>
+    <div class="slide">
+      <img src="IMG/Llavero.png" alt="Imagen 2">
+      <div class="caption">...pierdas...</div>
+    </div>
+    <div class="slide">
+      <img src="IMG/Llavero.png" alt="Imagen 3">
+      <div class="caption">...lo importante.</div>
+    </div>
+  </div>
+
+  <button class="prev">❮</button>
+  <button class="next">❯</button>
+</div>
+
+
     <section id="adquirir" class="card">
         <h2>Cómo Adquirir el Producto</h2>
         <p>Al darle click a este botón, irás a un apartado para comprar el producto de manera online. En este caso solo podrás abonar con Tarjeta
-            de crédito, ya sea VISA, Mastercard. El producto vale <strong>7.999 ARS</strong>, pero se puede añadir impuestos por el envío a domicilio.
+            de crédito, ya sea VISA, Mastercard. El producto vale <s>16.499 ARS</s> <strong>7.999 ARS</strong>, pero se puede añadir impuestos por el envío a domicilio.
             También podés optar por comprarlo en nuestra <a href="#contacto" id="sucursal">sucursal</a>.
         </p>
         <a href="compra.html" class="cta">Adquirir Producto</a>
@@ -62,5 +89,5 @@
         <p>SmartKey | © Todos los derechos reservados 2025</p>
     </footer>
 </body>
-
+<script src="main.js"></script>
 </html>
