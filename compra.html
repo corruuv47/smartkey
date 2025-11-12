@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartKey | Compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de la empresa" />
+        <div class="Tituloyeslogan">
+            <h1 id="titulo">SmartKey</h1>
+            <p id="eslogan">Nunca más pierdas lo importante</p>
+        </div>
+</header>
+
+<nav>
+    <a class="anav" href="index.html">Inicio</a>
+    <a class="anav" href="#historia">Sobre nosotros</a>
+    <a class="anav" href="#producto">Nuestro producto</a>
+    <a class="anav" href="">Adquirir</a>
+    <a class="anav" href="#contacto">Contacto</a>
+</nav>
+
+<form>
+<h1>¡A un paso de ser tuyo!</h1>
+
+<label>Cantidad</label>
+<input type="number" min="0" required>
+
+
+<label>Número de Tarjeta</label>
+<input type="text" placeholder="XXXX XXXX XXXX XXXX" required>
+
+
+<label>Código de Seguridad (CVV)</label>
+<input type="text" placeholder="XXX">
+
+<label>Fecha de Vencimiento</label>
+<div id="fechavencimiento">
+    <input class="vencimiento" type="number" minlength="2" maxlength="2" placeholder="MM" required>
+    <p id="barrita">/</p>
+    <input class="vencimiento" type="number" minlength="2" maxlength="2" placeholder="AA" required>
+</div>
+
+<label>Titular de la Tarjeta</label>
+<input type="text" placeholder="Nombre completo" required>
+
+
+<div class="domicilio">
+    <input type="checkbox" id="envio"> <label for="envio">Enviar a domicilio</label>
+</div>
+
+
+<div class="factura">
+    <span>Producto:</span>
+    <span id="precioProducto">7999 ARS</span>
+    </div>
+    <div class="factura">
+    <span>Envío:</span>
+    <span id="precioEnvio">0 ARS</span>
+    </div>
+    <hr>
+    <div class="factura">
+    <span>Total:</span>
+    <span id="total">7999 ARS</span>
+</div>
+
+
+<div class="buttons">
+<button class="cancelar" onclick="location.href='index.html'">Cancelar compra</button>
+<input type="submit" class="comprar">
+</form>
+
+
+
+<div id="exito">✅ ¡Compra realizada con éxito!</div>
+</div>
+    <footer>
+        <p>SmartKey | © Todos los derechos reservados 2025</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>

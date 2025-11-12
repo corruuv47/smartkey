@@ -1,0 +1,170 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-image: url("SmartKey.png");
+background-attachment: fixed;
+backdrop-filter: blur(20px);
+color: #e5e5e5;
+}
+
+header {
+background: #000000;
+color: white;
+padding: 20px;
+display: flex;
+align-items: center;
+gap: 20px;
+justify-content: center;
+text-align: left;
+}
+
+header img {
+width: 80px;
+height: auto;
+}
+
+nav {
+background: #111111;
+padding: 10px;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+nav a {
+color: #e5e5e5;
+text-decoration: none;
+font-weight: bold;
+}
+section {
+padding: 40px;
+max-width: 900px;
+margin: auto;
+}
+
+.card {
+background: #2b2b2b;
+padding: 20px;
+border-radius: 10px;
+margin-top: 30px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+footer {
+background: #000000;
+color: white;
+padding: 20px;
+text-align: center;
+margin-top: 40px;
+}
+
+.cta {
+display: inline-block;
+padding: 15px 20px;
+background: #0d6efd;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+}
+
+.anav:hover{
+    color: #0d6efd;
+    transition: 0.2s;
+}
+
+.anav:active{
+    color: #00398d;
+    transition: 0.2s;
+}
+
+
+form {
+max-width: 600px;
+margin: 40px auto;
+background: #2b2b2b;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+h1 {
+text-align: center;
+}
+
+label {
+display: block;
+margin-top: 15px;
+font-weight: bold;
+}
+
+input, select {
+width: 100%;
+padding: 10px;
+border-radius: 6px;
+border: none;
+margin-top: 5px;
+background: #1e1e1e;
+color: #e5e5e5;
+}
+
+#fechavencimiento{
+    display: flex;
+}
+
+#barrita{
+    size: 40px;
+}
+
+.vencimiento {
+width: 10%;
+border-radius: 6px;
+border: none;
+margin: 5px;
+background: #1e1e1e;
+color: #e5e5e5;
+}
+
+.domicilio {
+display: flex;
+margin-top: 15px;
+}
+.buttons {
+margin-top: 30px;
+display: flex;
+justify-content: end;
+
+}
+button {
+padding: 12px 20px;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+}
+.cancelar {
+background: transparent;
+color: rgb(255, 53, 53);
+border: solid 1px rgb(255, 53, 53);
+border-radius: 8px;
+margin-right: 2.5px;
+}
+.comprar {
+background: #0d6efd;
+color: white;
+margin-left: 2.5px;
+}
+#exito {
+display: none;
+margin-top: 30px;
+background: #198754;
+padding: 20px;
+text-align: center;
+border-radius: 8px;
+font-weight: bold;
+color: white;
+}
+
+#sucursal{
+    color: wheat;
+}
